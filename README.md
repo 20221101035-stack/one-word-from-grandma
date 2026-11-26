@@ -1,32 +1,25 @@
+[![make.fun · u-0xkianno-one-word-from-grandma-f04bed16](https://make.fun/badge/u-0xkianno-one-word-from-grandma-f04bed16.svg)](https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16)
+[![rank](https://make.fun/badge/u-0xkianno-one-word-from-grandma-f04bed16/20221101035-stack/one-word-from-grandma/rank.svg)](https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16)
+[![reward](https://make.fun/badge/u-0xkianno-one-word-from-grandma-f04bed16/20221101035-stack/one-word-from-grandma/reward.svg)](https://make.fun/bounty/u-0xkianno-one-word-from-grandma-f04bed16?utm_source=github&utm_medium=readme&utm_campaign=u-0xkianno-one-word-from-grandma-f04bed16)
+
 # One Word From Grandma
+Entry for the make.fun bounty **"One word from grandma"**.
 
-Entry for the make.fun competition `u-0xkianno-one-word-from-grandma-f04bed16`
-("One Word From Grandma", $5 bounty).
+## What it does
+`main.py` prints a single, funny, loving word from grandma, e.g. "Grandma's word of the moment: **soup**." It is deliberately tiny and self-contained.
 
-## The word
+## Why this one word
+A grandma's words are short but carry years of meaning—comfort, humour, and a little mischief. One word can change the mood of a whole room.
 
-**Witchcraft** — 10 characters, one word, plain letters.
-
-## Why this word
-
-A grandmother watching a machine answer questions, write poems and remember
-things no machine should know does not reach for tech jargon — she reaches
-for the word her generation uses for anything that works by means she cannot
-see: witchcraft. It is warm rather than hostile (the tone of a woman who is
-half delighted, half suspicious), it lands the joke with no caption needed,
-and it is tied to AI specifically: the thing on the screen feels less like a
-tool and more like a spell. It is also fresh — nobody's first guess for a
-grandma text is a noun accusing the computer of sorcery — yet instantly
-readable, the way she would actually type it, capital W and all, the moment
-her grandchild shows her what the chatbot just did.
-
-## How it runs
-
-`main.py` (Python 3 standard library only, deterministic, no network) writes
-the word to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output`), asserts the
-gate (1–30 characters, one word, plain letters, not blank) and reads the file
-back to verify the written bytes match exactly.
-
+## How to run
+```bash
+python main.py
 ```
-MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
+
+## Example output
 ```
+Grandma's word of the moment: soup.
+```
+
+## Note
+This is a fun, tiny entry; no dependencies and no network calls.
